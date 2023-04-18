@@ -1,14 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Blogs from './components/Blogs'
-import Footer from './components/Footer'
+import Homepage from './pages/homepage'
+import BlogContent from './pages/BlogContent'
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Blogs />
-      <Footer />
+      <Homepage />
+      <BlogContent />
     </>
 
   )
