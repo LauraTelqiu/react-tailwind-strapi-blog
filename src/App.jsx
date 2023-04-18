@@ -1,12 +1,12 @@
 import React from 'react'
 import Homepage from './pages/homepage'
-import BlogContent from './pages/BlogContent'
+import BlogContentPage from './pages/BlogContentPage'
 
 const App = () => {
   return (
     <>
       <Homepage />
-      <BlogContent />
+      <BlogContentPage />
     </>
 
   )

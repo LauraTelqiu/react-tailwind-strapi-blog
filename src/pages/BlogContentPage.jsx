@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-// import Blogs from '../components/Blogs'
+import BlogContent from '../components/BlogContent'
 import Footer from '../components/Footer'
 
-const BlogContent = () => {
+const BlogContentPage = () => {
   return (
     <>
       <Navbar />
-      {/* <Blogs /> */}
+      <BlogContent />
       <Footer />
     </>
   )
 }
 
-export default BlogContent
+export default BlogContentPage
